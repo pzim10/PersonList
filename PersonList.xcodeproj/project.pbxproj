@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		282F5EA01B4384C7004E4543 /* PersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F5E9F1B4384C7004E4543 /* PersonController.m */; };
+		282F5EA31B4386CD004E4543 /* PersonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F5EA21B4386CD004E4543 /* PersonListViewController.m */; };
+		282F5EA61B438705004E4543 /* PersonListViewDS.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F5EA51B438705004E4543 /* PersonListViewDS.m */; };
+		282F5EA91B438739004E4543 /* PersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F5EA81B438739004E4543 /* PersonDetailViewController.m */; };
 		4FCC9EFD1A785EDD00AEED5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC9EFC1A785EDD00AEED5F /* main.m */; };
 		4FCC9F001A785EDD00AEED5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC9EFF1A785EDD00AEED5F /* AppDelegate.m */; };
 		4FCC9F031A785EDD00AEED5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC9F021A785EDD00AEED5F /* ViewController.m */; };
@@ -28,6 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		282F5E9E1B4384C7004E4543 /* PersonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonController.h; sourceTree = "<group>"; };
+		282F5E9F1B4384C7004E4543 /* PersonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonController.m; sourceTree = "<group>"; };
+		282F5EA11B4386CD004E4543 /* PersonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonListViewController.h; sourceTree = "<group>"; };
+		282F5EA21B4386CD004E4543 /* PersonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonListViewController.m; sourceTree = "<group>"; };
+		282F5EA41B438705004E4543 /* PersonListViewDS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonListViewDS.h; sourceTree = "<group>"; };
+		282F5EA51B438705004E4543 /* PersonListViewDS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonListViewDS.m; sourceTree = "<group>"; };
+		282F5EA71B438739004E4543 /* PersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDetailViewController.h; sourceTree = "<group>"; };
+		282F5EA81B438739004E4543 /* PersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDetailViewController.m; sourceTree = "<group>"; };
 		4FCC9EF71A785EDD00AEED5F /* PersonList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FCC9EFB1A785EDD00AEED5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FCC9EFC1A785EDD00AEED5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +102,14 @@
 				4FCC9F021A785EDD00AEED5F /* ViewController.m */,
 				68031FE41AF59D2A0059F48A /* Person.h */,
 				68031FE51AF59D2A0059F48A /* Person.m */,
+				282F5E9E1B4384C7004E4543 /* PersonController.h */,
+				282F5E9F1B4384C7004E4543 /* PersonController.m */,
+				282F5EA11B4386CD004E4543 /* PersonListViewController.h */,
+				282F5EA21B4386CD004E4543 /* PersonListViewController.m */,
+				282F5EA41B438705004E4543 /* PersonListViewDS.h */,
+				282F5EA51B438705004E4543 /* PersonListViewDS.m */,
+				282F5EA71B438739004E4543 /* PersonDetailViewController.h */,
+				282F5EA81B438739004E4543 /* PersonDetailViewController.m */,
 				4FCC9F041A785EDD00AEED5F /* Main.storyboard */,
 				4FCC9F071A785EDD00AEED5F /* Images.xcassets */,
 				4FCC9F091A785EDD00AEED5F /* LaunchScreen.xib */,
@@ -224,8 +244,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				282F5EA91B438739004E4543 /* PersonDetailViewController.m in Sources */,
 				4FCC9F031A785EDD00AEED5F /* ViewController.m in Sources */,
+				282F5EA31B4386CD004E4543 /* PersonListViewController.m in Sources */,
 				4FCC9F001A785EDD00AEED5F /* AppDelegate.m in Sources */,
+				282F5EA01B4384C7004E4543 /* PersonController.m in Sources */,
+				282F5EA61B438705004E4543 /* PersonListViewDS.m in Sources */,
 				68031FE61AF59D2A0059F48A /* Person.m in Sources */,
 				4FCC9EFD1A785EDD00AEED5F /* main.m in Sources */,
 			);

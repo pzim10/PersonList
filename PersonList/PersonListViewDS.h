@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 DevMountain. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
-@interface PersonListViewDS : NSObject
+#import <UIKit/UIKit.h>
+#import "PersonController.h"
+@interface PersonListViewDS : NSObject <UITableViewDataSource>
 
 @end
